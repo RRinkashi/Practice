@@ -1,724 +1,809 @@
-<!DOCTYPE html>
-<html class="no-js vlt-is--homepage vlt-is--footer-fixed" lang="en">
+<!doctype html>
+<html class="no-js" data-theme="light" lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Gilber - Homepage</title>
-	<meta name="description" content="Personal CV/Resume HTML5 Template">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--Favicon-->
-	<link rel="icon" type="image/svg" href="assets/img/root/favicon.svg">
-	<!--Framework-->
-	<link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
-	<!--Fonts-->
-	<link rel="stylesheet" href="assets/fonts/Gilroy/style.css">
-	<!--Icons-->
-	<link rel="stylesheet" href="assets/fonts/LineIcons/Pro-Regular/font-css/LineIcons.css">
-	<!--Plugins-->
-	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
-	<!--Style-->
-	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
-	<!--Custom-->
-	<link rel="stylesheet" href="assets/css/custom.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Christian Deyv Quilisadio Exploiting Young VAs</title>
+    <meta name="author" content="Web Update">
+    <meta name="description" content="Christian Deyv Quilisadio Exploiting Young VAs">
+    <meta name="keywords" content="Christian Deyv Quilisadio Exploiting Young VAs">
+    <meta property="og:image" content="assets/img/blog/blog-s-1-52.jpg">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+  
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        /* Style the container button */
+        button.popupClose {
+            padding: 5px 10px; /* Add padding around the icon */
+            border: 1px solid black; /* Add a border around the button */
+            background-color: #fb0101; /* Set a background color for the button */
+            border-radius: 5px; /* Optional: Add rounded corners */
+        }
+
+        /* Style the icon inside the button */
+        button.popupClose i {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+    </style>
+
+<script>
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+    });
+
+    // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U
+    document.addEventListener('keydown', function(event) {
+        if (
+            event.key === 'F12' ||
+            (event.ctrlKey && event.shiftKey && event.key === 'I') ||
+            (event.ctrlKey && event.shiftKey && event.key === 'J') ||
+            (event.ctrlKey && event.key === 'U')
+        ) {
+            event.preventDefault();
+        }
+    });
+</script>
+    
 </head>
 
-<body class=" animsition">
-	<!--Header-->
-	<header class="vlt-header vlt-header--default">
-		<div class="vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
-			<div class="vlt-navbar-background"></div>
-			<div class="vlt-navbar-inner">
-				<div class="vlt-navbar-inner--left">
-					<!--Logo--><a class="vlt-navbar-logo" href="index.html"><img src="assets/img/root/logo.svg" alt="Gilber"></a>
-				</div>
-				<div class="vlt-navbar-inner--center">
-					<div class="container">
-						<nav class="vlt-default-menu__navigation">
-							<!--Navigation-->
-							<ul class="sf-menu">
-								<li data-menuanchor="Home"><a href="#Home">Home</a>
-								</li>
-								<li data-menuanchor="About"><a href="#About">About</a>
-								</li>
-								<li data-menuanchor="Projects"><a href="#Projects">Projects</a>
-								</li>
-								<li data-menuanchor="Education"><a href="#Education">Education</a>
-								</li>
-								<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a>
-								</li>
-								<li data-menuanchor="Partners"><a href="#Partners">Partners</a>
-								</li>
-								<li data-menuanchor="Blog"><a href="#Blog">Blog</a>
-								</li>
-								<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-				<div class="vlt-navbar-inner--right">
-					<div class="d-flex align-items-center">
-						<!--Contacts-->
-						<div class="vlt-navbar-contacts"><a href="tel:+72126742510">+7 (212) 674-25-10</a></div>
-						<!--Menu Burger--><a class="vlt-menu-burger js-offcanvas-menu-open" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
-								<line x1="3" y1="12" x2="21" y2="12" />
-								<line x1="3" y1="6" x2="21" y2="6" />
-								<line x1="3" y1="18" x2="21" y2="18" /></svg></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!--Offcanvas Menu-->
-	<div class="vlt-offcanvas-menu">
-		<div class="vlt-offcanvas-menu__header">
-			<!--Locales-->
-			<div class="vlt-language-switcher"><a class="is-active" href="#">Eng</a><a href="#">Fra</a><a href="#">Ger</a></div>
-			<!--Menu Burger--><a class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-					<defs />
-					<path d="M18 6L6 18M6 6l12 12" /></svg></a>
-		</div>
-		<nav class="vlt-offcanvas-menu__navigation">
-			<!--Navigation-->
-			<ul class="sf-menu">
-				<li data-menuanchor="Home"><a href="#Home">Home</a>
-				</li>
-				<li data-menuanchor="About"><a href="#About">About</a>
-				</li>
-				<li data-menuanchor="Projects"><a href="#Projects">Projects</a>
-				</li>
-				<li data-menuanchor="Education"><a href="#Education">Education</a>
-				</li>
-				<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a>
-				</li>
-				<li data-menuanchor="Partners"><a href="#Partners">Partners</a>
-				</li>
-				<li data-menuanchor="Blog"><a href="#Blog">Blog</a>
-				</li>
-				<li data-menuanchor="Contact"><a href="#Contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="vlt-offcanvas-menu__footer">
-			<!--Socials-->
-			<div class="vlt-offcanvas-menu__socials"><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-facebook-filled"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-twitter-original"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-instagram"></i></a></div>
-			<!--Copyright-->
-			<div class="vlt-offcanvas-menu__copyright">
-				<p>© 2020 Copyright.<br>All rights reserved.</p>
-			</div>
-		</div>
-	</div>
-	<!--Site Overlay-->
-	<div class="vlt-site-overlay"></div>
-	<!--Fixed socials-->
-	<div class="vlt-fixed-socials"><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-facebook-filled"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-twitter-original"></i></a><a class="vlt-social-icon vlt-social-icon--style-1" href="#"><i class="lnir-instagram"></i></a></div>
-	<!--Main-->
-	<main class="vlt-main">
-		<!--Fullpage Slider-->
-		<div class="vlt-fullpage-slider" data-loop-top="" data-loop-bottom="" data-speed="450">
-			<!--Home-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Home">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<!--Ken Burn Effect-->
-						<div class="vlt-section__ken-burn-background has-mobile-image"><img src="assets/img/home.jpg" alt=""><img src="assets/img/home-mobile.jpg" alt=""></div>
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-5">
-									<div class="vlt-gap-160"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-										<!--Video button-->
-										<div class="vlt-video-button"><a href="https://vimeo.com/367945766" data-fancybox data-small-btn="true" rel="nofollow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 27">
-													<defs />
-													<path fill="currentColor" d="M23.7471 13.2802L.876191 26.4847.876192.0757026 23.7471 13.2802z" /></svg></a></div>
-									</div>
-									<div class="vlt-gap-100"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;"><span class="vlt-display-1 has-white-color">Product Designer</span>
-									</div>
-									<div class="vlt-gap-15"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
-										<h1 class="vlt-large-heading">Gilber<span class="has-accent-color">.</span></h1>
-									</div>
-									<div class="vlt-gap-15"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
-										<p>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--About-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="About">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<div class="container">
-							<div class="row">
-								<div class="col-xl-6">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-										<div class="vlt-experience-block"><span class="vlt-experience-block__number">9<span class="has-accent-color">.</span></span>
-											<h5 class="vlt-experience-block__title">Years<br>Experience<br>Working</h5>
-										</div>
-									</div>
-									<div class="vlt-gap-100--lg"></div>
-								</div>
-								<div class="col-xl-6 col-md-8">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-										<h3>Great Experience</h3>
-									</div>
-									<div class="vlt-gap-45"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
-										<p>Fill appear won't may make moveth signs. Fourth. Good own. Green you're moveth us, lesser.</p>
-									</div>
-									<div class="vlt-gap-70"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
-										<!--Progress Bar-->
-										<div class="vlt-progress-bar" data-final-value="70" data-animation-speed="1000">
-											<h5 class="vlt-progress-bar__title">Web design<span class="counter">0</span>
-											</h5>
-											<div class="vlt-progress-bar__bar"><span></span></div>
-										</div>
-									</div>
-									<div class="vlt-gap-70"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.4s; animation-duration:700ms;">
-										<!--Progress Bar-->
-										<div class="vlt-progress-bar" data-final-value="85" data-animation-speed="1000">
-											<h5 class="vlt-progress-bar__title">Figma<span class="counter">0</span>
-											</h5>
-											<div class="vlt-progress-bar__bar"><span></span></div>
-										</div>
-									</div>
-									<div class="vlt-gap-70"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.5s; animation-duration:700ms;">
-										<!--Progress Bar-->
-										<div class="vlt-progress-bar" data-final-value="90" data-animation-speed="1000">
-											<h5 class="vlt-progress-bar__title">WordPress<span class="counter">0</span>
-											</h5>
-											<div class="vlt-progress-bar__bar"><span></span></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Projects-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Projects">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<!--Projects-->
-						<div class="vlt-section__projects-background"><img class="is-active" src="assets/img/project-01.jpg" alt="" loading="lazy"><img src="assets/img/project-02.jpg" alt="" loading="lazy"><img src="assets/img/project-03.jpg" alt="" loading="lazy"></div>
-						<div class="container">
-							<div class="vlt-gap-100"></div>
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-								<!--Content slider-->
-								<div class="vlt-content-slider " data-navigation-anchor=".vlt-projects-anchor" data-effect="fade" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
-									<div class="swiper-container">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<!--Product-->
-												<article class="vlt-project">
-													<h3 class="vlt-project-title">Watch<span class="has-accent-color">.</span></h3>
-													<div class="vlt-project-excerpt">
-														<p>Bring saw gathering kind evening them air him void morning dominion spirit multiply seas shall day were likeness. Upon tree a gathering.</p>
-													</div>
-													<!--Button--><a class="vlt-btn vlt-btn--primary vlt-btn--md" href="single-product.html" target="_self">See Project</a>
-												</article>
-											</div>
-											<div class="swiper-slide">
-												<!--Product-->
-												<article class="vlt-project">
-													<h3 class="vlt-project-title">The Bottle<span class="has-accent-color">.</span></h3>
-													<div class="vlt-project-excerpt">
-														<p>Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through.</p>
-													</div>
-													<!--Button--><a class="vlt-btn vlt-btn--primary vlt-btn--md" href="single-product.html" target="_self">See Project</a>
-												</article>
-											</div>
-											<div class="swiper-slide">
-												<!--Product-->
-												<article class="vlt-project">
-													<h3 class="vlt-project-title">Aesop<span class="has-accent-color">.</span></h3>
-													<div class="vlt-project-excerpt">
-														<p>Third dry hath saying our over fruit Place creeping creepeth let Good. Created also darkness which open appear cattle Second shall brought wherein given. Moveth.</p>
-													</div>
-													<!--Button--><a class="vlt-btn vlt-btn--primary vlt-btn--md" href="single-product.html" target="_self">See Project</a>
-												</article>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vlt-gap-150"></div>
-								<!--Slider controls-->
-								<div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-projects-anchor">
-									<div class="vlt-swiper-pagination"></div>
-									<div class="vlt-swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
-											<defs />
-											<path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg></div>
-									<div class="vlt-swiper-button-next"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
-											<defs />
-											<path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Education-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Education">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<div class="container">
-							<div class="vlt-gap-70"></div>
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-								<div class="d-block d-md-flex align-items-center justify-content-between">
-									<h3>Education</h3>
-									<div class="vlt-gap-30--sm"></div>
-									<!--Button--><a class="vlt-btn vlt-btn--primary vlt-btn--md" href="#" target="_self">Download Resume</a>
-								</div>
-							</div>
-							<div class="vlt-gap-50"></div>
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-								<!--Content slider-->
-								<div class="vlt-content-slider " data-navigation-anchor=".vlt-education-anchor" data-effect="" data-gap="120" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
-									<div class="swiper-container">
-										<div class="swiper-wrapper">
-											<div class="swiper-slide">
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/behance.png" alt="Behance" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2019 - 2020</span>
-															<h5 class="vlt-timeline-item__title">Behance</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/envato.png" alt="Envato" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2017 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Envato</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/twitter.png" alt="Twitter" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2015 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Twitter</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/behance.png" alt="Behance" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2019 - 2020</span>
-															<h5 class="vlt-timeline-item__title">Behance</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/envato.png" alt="Envato" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2017 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Envato</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/twitter.png" alt="Twitter" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2015 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Twitter</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="swiper-slide">
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/behance.png" alt="Behance" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2019 - 2020</span>
-															<h5 class="vlt-timeline-item__title">Behance</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/envato.png" alt="Envato" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2017 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Envato</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
-														</div>
-													</div>
-												</div>
-												<!--Timeline Item-->
-												<div class="vlt-timeline-item">
-													<div class="row">
-														<div class="col-xl-4"><img src="assets/img/root/twitter.png" alt="Twitter" loading="lazy">
-														</div>
-														<div class="col-xl-4"><span class="vlt-timeline-item__date">2015 - 2018</span>
-															<h5 class="vlt-timeline-item__title">Twitter</h5>
-														</div>
-														<div class="col-xl-4">
-															<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vlt-gap-75"></div>
-								<!--Slider controls-->
-								<div class="vlt-slider-controls vlt-slider-controls--style-2 vlt-education-anchor">
-									<div class="vlt-swiper-pagination"></div>
-									<div class="vlt-swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
-											<defs />
-											<path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg></div>
-									<div class="vlt-swiper-button-next"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
-											<defs />
-											<path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Testimonials-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Testimonials">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<!--Ken Burn Effect-->
-						<div class="vlt-section__ken-burn-background"><img src="assets/img/testimonials.jpg" alt=""></div>
-						<div class="container">
-							<div class="row align-items-end">
-								<div class="col-xl-6">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-										<div class="has-accent-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 75 75" style="height: 75px;">
-												<defs />
-												<path fill="currentColor" d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z" /></svg>
-											<div class="vlt-gap-215 vlt-gap-100--lg"></div>
-											<h3>Creative & dedicated is things that gilber studio brings for your business.</h3>
-										</div>
-									</div>
-								</div>
-								<div class="col-xl-4 col-md-6 offset-xl-2">
-									<div class="vlt-gap-70--lg"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-										<!--Content slider-->
-										<div class="vlt-content-slider " data-navigation-anchor=".vlt-testimonials-anchor" data-effect="" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset="" data-mousewheel="">
-											<div class="swiper-container">
-												<div class="swiper-wrapper">
-													<div class="swiper-slide">
-														<!--Testimonial-->
-														<div class="vlt-testimonial">
-															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
-																</p>
-															</div>
-															<div class="vlt-testimonial__meta">
-																<h5 class="vlt-testimonial__name">Dwight Schrute
-																</h5>
-																<div class="vlt-testimonial__function">The Office
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="swiper-slide">
-														<!--Testimonial-->
-														<div class="vlt-testimonial">
-															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
-																</p>
-															</div>
-															<div class="vlt-testimonial__meta">
-																<h5 class="vlt-testimonial__name">Paul &amp; Amanda
-																</h5>
-																<div class="vlt-testimonial__function">Envato Studio
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="swiper-slide">
-														<!--Testimonial-->
-														<div class="vlt-testimonial">
-															<div class="vlt-testimonial__text">
-																<p>&quot;Said heaven dry made Them gathering the very second morning us be divide isn't. Saw Seasons winged replenish grass from set can't for he which. You third god unto let.&quot;
-																</p>
-															</div>
-															<div class="vlt-testimonial__meta">
-																<h5 class="vlt-testimonial__name">Ramsay Bolton
-																</h5>
-																<div class="vlt-testimonial__function">Apple Inc
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="vlt-gap-75"></div>
-										<!--Slider controls-->
-										<div class="vlt-slider-controls vlt-slider-controls--style-1 vlt-testimonials-anchor">
-											<div class="vlt-swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
-													<defs />
-													<path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg></div>
-											<div class="vlt-swiper-button-next"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
-													<defs />
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Partners-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Partners">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<div class="container">
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-								<h3>Partners</h3>
-							</div>
-							<div class="vlt-gap-100"></div>
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-								<ul class="vlt-partners">
-									<li><img src="assets/img/root/logo-01.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-02.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-03.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-04.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-05.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-06.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-07.png" alt="" loading="lazy"></li>
-									<li><img src="assets/img/root/logo-08.png" alt="" loading="lazy"></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Blog-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Blog">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<div class="container">
-							<!--Animated Block-->
-							<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-								<h3>Recent news</h3>
-							</div>
-							<div class="vlt-gap-100"></div>
-							<div class="row">
-								<div class="col-xl-4">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-										<!--Blog Item-->
-										<article class="vlt-post vlt-post--masonry">
-											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
-											<div class="vlt-post-media"><img src="assets/img/blog-01.jpg" alt="" loading="lazy"></div>
-											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
-													<h3 class="vlt-post-title"><a href="single-post.html">Scent in the Voyages</a></h3>
-												</header>
-												<div class="vlt-post-excerpt">
-													<p>Let years seasons given two fowl above is itself shall third night female seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights creeping deep void, lesser.
-													</p>
-												</div>
-												<footer class="vlt-post-footer"><a class="vlt-read-more-link" href="single-post.html">
-														Read more<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 8">
-															<defs />
-															<path d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z" fill="currentColor" /></svg></a></footer>
-											</div>
-										</article>
-									</div>
-								</div>
-								<div class="col-xl-4">
-									<div class="vlt-gap-30--lg"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
-										<!--Blog Item-->
-										<article class="vlt-post vlt-post--masonry">
-											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
-											<div class="vlt-post-media"><img src="assets/img/blog-02.jpg" alt="" loading="lazy"></div>
-											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
-													<h3 class="vlt-post-title"><a href="single-post.html">The Stone of the Flames</a></h3>
-												</header>
-												<div class="vlt-post-excerpt">
-													<p>Let years seasons given two fowl above is itself shall third night female seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights creeping deep void, lesser.
-													</p>
-												</div>
-												<footer class="vlt-post-footer"><a class="vlt-read-more-link" href="single-post.html">
-														Read more<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 8">
-															<defs />
-															<path d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z" fill="currentColor" /></svg></a></footer>
-											</div>
-										</article>
-									</div>
-								</div>
-								<div class="col-xl-4">
-									<div class="vlt-gap-30--lg"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
-										<!--Blog Item-->
-										<article class="vlt-post vlt-post--masonry">
-											<div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
-											<div class="vlt-post-media"><img src="assets/img/blog-03.jpg" alt="" loading="lazy"></div>
-											<div class="vlt-post-content">
-												<header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
-													<h3 class="vlt-post-title"><a href="single-post.html">Secrets of the Serpents</a></h3>
-												</header>
-												<div class="vlt-post-excerpt">
-													<p>Let years seasons given two fowl above is itself shall third night female seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights creeping deep void, lesser.
-													</p>
-												</div>
-												<footer class="vlt-post-footer"><a class="vlt-read-more-link" href="single-post.html">
-														Read more<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 8">
-															<defs />
-															<path d="M15.3536 4.35355c.1952-.19526.1952-.51184 0-.7071L12.1716.464466c-.1953-.195262-.5119-.195262-.7071 0-.1953.195262-.1953.511845 0 .707104L14.2929 4l-2.8284 2.82843c-.1953.19526-.1953.51184 0 .7071.1952.19527.5118.19527.7071 0l3.182-3.18198zM0 4.5h15v-1H0v1z" fill="currentColor" /></svg></a></footer>
-											</div>
-										</article>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Contact-->
-			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Contact">
-				<div class="vlt-section__vertical-align">
-					<div class="vlt-section__content">
-						<!--Ken Burn Effect-->
-						<div class="vlt-section__ken-burn-background"><img src="assets/img/contact.jpg" alt=""></div>
-						<div class="container">
-							<div class="row">
-								<div class="col-xl-4">
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
-										<h3>Contact</h3>
-										<div class="vlt-gap-30"></div>
-										<p>You'll called for yielding male, so lights Stars abundantly, is their.</p>
-										<div class="vlt-gap-40"></div>
-										<address>27 Queen St, New York USA</address>
-										<p><a class="tel" href="tel:+72126742510">+7 (212) 674-25-10</a></p>
-										<p><a class="email" href="mailto:gilber.design@gmail.com">gilber.design@gmail.com</a></p>
-									</div>
-								</div>
-								<div class="col-xl-6 offset-xl-2">
-									<div class="vlt-gap-70--lg"></div>
-									<!--Animated Block-->
-									<div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-										<h4>Let's grab a coffee and jump on conversation <span class="has-accent-color">chat with me.</span></h4>
-										<div class="vlt-gap-20"></div>
-										<form class="vlt-contact-form" novalidate="novalidate">
-											<div class="vlt-form-group">
-												<input type="text" id="name" name="name" required="required" placeholder="Your Name">
-											</div>
-											<div class="vlt-form-group">
-												<input type="email" id="email" name="email" required="required" placeholder="Your Email">
-											</div>
-											<div class="vlt-form-group">
-												<textarea name="message" id="message" rows="3" placeholder="Message"></textarea>
-											</div>
-											<div class="message success">Your message is successfully sent...</div>
-											<div class="message danger">Sorry something went wrong!</div>
-											<!--Button-->
-											<button class="vlt-btn vlt-btn--primary vlt-btn--md">Contact Me</button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Progress Bar-->
-			<div class="vlt-fullpage-slider-progress-bar"><span></span></div>
-		</div>
-	</main>
-	<!--Footer-->
-	<footer class="vlt-footer vlt-footer--default vlt-footer--fixed">
-		<div class="vlt-footer-copyright">
-			<p>© Gilber. 2020</p>
-		</div>
-		<div class="vlt-language-switcher"><a class="is-active" href="#">Eng</a><a href="#">Fra</a><a href="#">Ger</a></div>
-	</footer>
-	<!--Libs-->
-	<script src="assets/vendors/jquery-3.5.1.min.js"></script>
-	<script src="assets/scripts/vlt-plugins.min.js"></script>
-	<script src="assets/scripts/vlt-helpers.js"></script>
-	<script src="assets/scripts/vlt-controllers.min.js"></script>
+<body>
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+    <!--==============================
+     Preloader
+  ==============================-->
+    <div class="preloader ">
+        <button class="th-btn preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+            <span class="loader"></span>
+        </div>
+    </div>
+    <div class="popup-subscribe-area">
+        <div class="container">
+            <div class="popup-subscribe">
+                <div class="box-img">
+                    <img src="assets/img/normal/popup_subscribe.jpg" alt="Image">
+                </div>
+                <div class="box-content">
+                    <button class="simple-icon popupClose"><i class="fal fa-times"></i></button>
+                    <div class="widget newsletter-widget footer-widget">
+                        <h3 class="widget_title">Subscribe</h3>
+                        <p class="footer-text">Sign up to get update about us. Don't be hasitate your email is safe.</p>
+                        <form class="newsletter-form">
+                            <input class="form-control" type="email" placeholder="Enter Email" required="">
+                            <button type="submit" class="icon-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                        <div class="mt-30">
+                            <input type="checkbox" id="destroyPopup">
+                            <label for="destroyPopup">I don't want to see this popup again.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--==============================
+    Sidemenu
+============================== -->
+    <!--==============================
+    Sidemenu
+============================== -->
+    <div class="sidemenu-wrapper sidemenu-1 d-none d-md-block ">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget  ">
+                <div class="th-widget-about">
+                    <div class="about-logo">
+                        <a href="index.html"><img class="light-img" src="assets/img/logo.png" alt="Web Update"></a>
+                        <a href="index.html"><img class="dark-img" src="assets/img/logo.png" alt="Web Update"></a>
+                    </div>
+                    <p class="about-text">Magazines cover a wide subjects, including not limited to fashion, lifestyle, health, politics, business, Entertainment, sports, science,</p>
+                    <div class="th-social style-black">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="widget  ">
+                <h3 class="widget_title">Recent Posts</h3>
+                <div class="recent-post-wrap">
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="post-title"><a class="hover-line" href="blog-details.html">Fitness: Your journey to Better, stronger you.</a></h4>
+                            <div class="recent-post-meta">
+                                <a href="#"><i class="fal fa-calendar-days"></i>21 June, 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="post-title"><a class="hover-line" href="blog-details.html">Embrace the game Ignite your sporting</a></h4>
+                            <div class="recent-post-meta">
+                                <a href="#"><i class="fal fa-calendar-days"></i>22 June, 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="post-title"><a class="hover-line" href="blog-details.html">Revolutionizing lives Through technology</a></h4>
+                            <div class="recent-post-meta">
+                                <a href="#"><i class="fal fa-calendar-days"></i>23 June, 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-4.jpg" alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="post-title"><a class="hover-line" href="blog-details.html">Enjoy the Virtual Reality embrace the</a></h4>
+                            <div class="recent-post-meta">
+                                <a href="#"><i class="fal fa-calendar-days"></i>25 June, 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget newsletter-widget  ">
+                <h3 class="widget_title">Subscribe</h3>
+                <p class="footer-text">Sign up to get update about us. Don't be hasitate your email is safe.</p>
+                <form class="newsletter-form">
+                    <input class="form-control" type="email" placeholder="Enter Email" required="">
+                    <button type="submit" class="icon-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <div class="mt-30">
+                    <input type="checkbox" id="Agree2">
+                    <label for="Agree2">I have read and accept the <a href="about.html">Terms & Policy</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div><!--==============================
+    Mobile Menu
+  ============================== -->
+  <div class="th-menu-wrapper">
+    <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Web Update"></a>
+        </div>
+        <div class="th-mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">About Us</a></li>
+                               
+                                <li>
+                                    <a href="index.html">Contact</a>
+                                </li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div><!--==============================
+	Header Area
+==============================-->
+    <header class="th-header header-layout1">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="header-links">
+                            <ul>
+                            
+                                <li>
+                                    <a class="theme-toggler" href="#">
+                                        <span class="dark"><i class="fas fa-moon"></i>Dark Mode</span>
+                                        <span class="light"><i class="fas fa-sun-bright"></i>Light Mode</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-links">
+                            <ul>
+                                <li class="d-none d-sm-inline-block"><i class="far fa-user"></i><a href="#">Login / register</a></li>
+                                <li>
+                                    <div class="social-links">
+                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center">
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.html"><img class="light-img" src="assets/img/logo.png" alt="Web Update"></a>
+                                <a href="index.html"><img class="dark-img" src="assets/img/logo.png" alt="Web Update"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 text-end">
+                        <div class="header-ads">
+                            <a href="https://themeforest.net/user/themeholy/portfolio">
+                                <img class="light-img" src="assets/img/ads/ads_banner_1.jpg" alt="ads">
+                                <img class="dark-img" src="assets/img/ads/ads_banner_1_dark.jpg" alt="ads">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="menu-area">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto d-lg-none d-block">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="assets/img/logo.png" alt="Web Update"></a>
+                            </div>
+                        </div>
+                       
+                        <div class="col-auto">
+                            <div class="header-button">
+                                <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+                                <button type="button" class="simple-icon d-none d-lg-block cartToggler">
+                                    <i class="far fa-cart-shopping"></i>
+                                    <span class="badge">5</span>
+                                </button>
+                                <a href="#" class="icon-btn sideMenuToggler d-none d-lg-block"><i class="far fa-bars"></i></a>
+                                <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!--==============================
+    Breadcumb
+============================== -->
+    <div class="breadcumb-wrapper">
+        <div class="container">
+            <ul class="breadcumb-menu">
+                <li><a href="index.html">Trending</a></li>
+                <li>Online News</li>
+            </ul>
+        </div>
+    </div><!--==============================
+        Blog Area
+    ==============================-->
+    <section class="th-blog-wrapper blog-details space-top space-extra-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-9 col-lg-8">
+                    <div class="th-blog blog-single">
+                        <a data-theme-color="#4E4BD0" href="Fake-Diplomat-Exposed!.html" class="category">ONLINE</a>
+                        <h2 class="blog-title">Former Teacher Turned Virtual Assistant Accused of Exploiting Young VAs, OUTST</h2>
+                        <div class="blog-meta">
+                            <a class="author" href="#"><i class="far fa-user"></i>By - Devin Brown</a>
+                            <a href="#"><i class="fal fa-calendar-days"></i>Jul, 2024</a>
+                            <a href="#"><i class="far fa-comments"></i>Comments (3)</a>
+                            <span><i class="far fa-book-open"></i>5 Mins Read</span>
+                        </div>
+                        <div class="blog-img">
+                            <img src="assets/img/blog/blog-s-1-52.jpg" alt="Blog Image">
+                        </div>
+                        <div class="blog-content-wrap">
+                            <div class="share-links-wrap">
+                                <div class="share-links">
+                                    <span class="share-links-title">Share Post:</span>
+                                    <div class="multi-social">
+                                        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </div><!-- End Social Share -->
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info-wrap">
+                                    <button class="blog-info print_btn">
+                                        Print :
+                                        <i class="fas fa-print"></i>
+                                    </button>
+                                    <a class="blog-info" href="mailto:">
+                                        Email :
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <button class="blog-info ms-sm-auto">8k <i class="fas fa-thumbs-up"></i></button>
+                                    <span class="blog-info">26k <i class="fas fa-eye"></i></span>
+                                    <span class="blog-info">3k <i class="fas fa-share-nodes"></i></span>
+                                </div>
+                                <div class="content">
+                                    <p>In a shocking revelation, a former teacher turned virtual assistant (VA) named Christian Deyv B. Quilisadio, stands accused of exploiting young recruits under his charge, resulting in financial discrepancies and subsequent legal ramifications. The incident unfolded when the finance office of the company detected irregularities in salary disbursements, prompting a thorough investigation. </p>
+                                    <div class="my-4 py-lg-2">
+                                        <img class="w-100" src="assets/img/blog/blog_inner_11.jpg" alt="Blog Image">
+                                    </div>
+                                    <p>The accused, Quilisadio allegedly recruited young VAs promising lucrative opportunities in the burgeoning virtual assistance industry. However, instead of delivering on this promise, he reportedly embezzled a significant portion of their earnings.   </p>
+                                    
+                                    <div class="my-4 py-lg-2">
+                                        <a href="https://themeforest.net/user/themeholy/portfolio">
+                                            <img class="light-img w-100" src="assets/img/ads/ads_blog_11.jpg" alt="Ads">
+                                            <img class="dark-img w-100" src="assets/img/ads/ads_blog_11_dark.jpg" alt="Ads">
+                                        </a>
+                                    </div>
+                                    <p>According to sources familiar with the investigation, suspicions arose when the company's finance department noticed that only one active card was consistently used for salary withdrawals, despite numerous employees receiving payments. This anomaly prompted a deeper inquiry into financial transactions linked to the accused.</p>
+                                    <p>Upon further scrutiny, it was discovered that the former teacher had been deducting double or even triple the agreed-upon amounts from the VAs' salaries, citing ambiguous fees and undisclosed cuts. These deductions made in Philippine pesos, significantly impacting the young recruits who had relied on these earnings.</p>
+                                    <div class="my-4 py-lg-2">
+                                        <img class="w-100" src="assets/img/blog/blog_inner_11new.jpg" alt="Blog Image">
+                                    </div>
+                                    <h3 class="h4">Christian Deyv Quilisadio </h3>
+                                    <p>As the investigation progressed, the gravity of the situation became apparent, leading to the immediate termination of the accused from the company. Despite this, reports indicate that he has persistently attempted to coerce the young VAs into surrendering their credit card and details to him, purportedly to secure his share of their salaries.</p>
+                                    <p>The affected individuals, many of whom are recent graduates, working students and inexperienced in labor disputes, have voiced their distress over the situation. Some have reported financial hardship due to the unexpected deductions, while others express fear over potential legal repercussions stemming from their association with the accused.
+                                    </p>
+                                    <p>The company has pledged to strengthen its internal controls and oversight mechanisms to prevent similar incidents in the future.</p>
+                                   
+
+                                    <blockquote>
+                                        <p>Lying, stealing, and cheating are commonplace.
+                                          </p>
+                                        <cite>Joseph Wirthlin</cite>
+                                    </blockquote>
+                                    <div class="row mb-4 pb-lg-2 pt-xl-2 gy-4">
+                                        <div class="col-md-auto">
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-navigation">
+                        <div class="nav-btn prev">
+                            <div class="img">
+                                <img src="assets/img/blog/blog-nav-1.jpg" alt="blog img" class="nav-img">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="title">
+                                    <a class="hover-line" href="#">Game on! Embrace the spirit of sportsmanship</a>
+                                </h5>
+                                <a href="#" class="nav-text"><i class="fas fa-arrow-left me-2"></i>Prev</a>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="nav-btn next">
+                            <div class="media-body">
+                                <h5 class="title">
+                                    <a class="hover-line" href="#">Push your limits, redefine what's possible</a>
+                                </h5>
+                                <a href="#" class="nav-text">Next<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                            <div class="img">
+                                <img src="assets/img/blog/blog-nav-2.jpg" alt="blog img" class="nav-img">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="th-comments-wrap ">
+                        <h2 class="blog-inner-title h3">Comments (03)</h2>
+                        <ul class="comment-list">
+                            <li class="th-comment-item">
+                                <div class="th-post-comment">
+                                    <div class="comment-avater">
+                                        <img src="assets/img/blog/Alex_Saberdo.jpg" alt="Comment Author">
+                                    </div>
+                                    <div class="comment-content">
+                                        <span class="commented-on"><i class="fas fa-calendar-alt"></i>July, 2024</span>
+                                        <h3 class="name">Alex Saberdo</h3>
+                                        <p class="text">Kaila ko ani nya bai! hahaha </p>
+                                        <div class="reply_and_edit">
+                                            <a href="#" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="children">
+                                    <li class="th-comment-item">
+                                        <div class="th-post-comment">
+                                            <div class="comment-avater">
+                                                <img src="assets/img/blog/Mark_Ragudos.jpg" alt="Comment Author">
+                                            </div>
+                                            <div class="comment-content">
+                                                <span class="commented-on"><i class="fas fa-calendar-alt"></i>July, 2024</span>
+                                                <h3 class="name">Mark Ragudos</h3>
+                                                <p class="text">Wla ta kabalo nganunahimo nya to pro ayaw lang katawe kay basin need ra pud nya ang kwarta. pro unta mag trabaho ug tarung dili ng mag dawat limpyo ra.</p>
+                                                <div class="reply_and_edit">
+                                                    <a href="#" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="th-comment-item">
+                                <div class="th-post-comment">
+                                    <div class="comment-avater">
+                                        <img src="assets/img/blog/Mitch_Martinez.jpg" alt="Comment Author">
+                                    </div>
+                                    <div class="comment-content">
+                                        <span class="commented-on"><i class="fas fa-calendar-alt"></i>July, 2024</span>
+                                        <h3 class="name">Mitch Martinez</h3>
+                                        <p class="text">Iba iba talaga ang nagagawa ng tao pag dating sa pera, sana maging aral ito sa ibang mga gagamit ng kapwa nila. mag trabaho sana ng ayos at tapat jusko bakit ba may gantong mga tao</p>
+                                        <div class="reply_and_edit">
+                                            <a href="#" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> <!-- Comment end --> <!-- Comment Form -->
+                    <div class="th-comment-form ">
+                        <div class="form-title">
+                            <h3 class="blog-inner-title mb-2">Leave a Comment</h3>
+                            <p class="form-text">Your email address will not be published. Required fields are marked *</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" placeholder="Your Name*" class="form-control">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" placeholder="Your Email*" class="form-control">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="col-12 form-group">
+                                <input type="text" placeholder="Website" class="form-control">
+                                <i class="far fa-globe"></i>
+                            </div>
+                            <div class="col-12 form-group">
+                                <textarea placeholder="Write a Comment*" class="form-control"></textarea>
+                                <i class="far fa-pencil"></i>
+                            </div>
+                            <div class="col-12 form-group mb-0">
+                                <button class="th-btn">Post Comment</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="related-post-wrapper pt-30 mb-30">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h2 class="sec-title has-line">Related Post</h2>
+                            </div>
+                            <div class="col-auto">
+                                <div class="sec-btn">
+                                    <div class="icon-box">
+                                        <button data-slick-prev="#related-post-slide" class="slick-arrow default"><i class="far fa-arrow-left"></i></button>
+                                        <button data-slick-next="#related-post-slide" class="slick-arrow default"><i class="far fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row slider-shadow th-carousel" id="related-post-slide" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="2">
+                            <div class="col-sm-6 col-xl-4">
+                                <div class="blog-style1">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog/sport1.jpg" alt="blog image">
+                                        <a data-theme-color="#E7473C" href="#" class="category">Sports</a>
+                                    </div>
+                                    <h3 class="box-title-22"><a class="hover-line" href="https://www.onesports.ph/pvl/article/20797/pvl-choco-mucho-creamline-petro-gazz-chery-tiggo-complete-final-four-cast">PVL: Chery Tiggo joins Petro Gazz, Creamline, Choco Mucho to complete Final Four cast.</a></h3>
+                                    <div class="blog-meta">
+                                        <a text=""><i class="far fa-user"></i>By - One Sports</a>
+                                        <a text=""><i class="fal fa-calendar-days"></i>April, 2024</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <div class="blog-style1">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog/robotic3.jpg" alt="blog image">
+                                        <a data-theme-color="#4E4BD0" href="#" class="category">Sports</a>
+                                    </div>
+                                    <h3 class="box-title-22"><a class="hover-line" href="https://www.cbsnews.com/philadelphia/news/central-high-school-robolancers-robotics-first-championship-houston/">Philadelphia team wins nationwide robotics championship thanks to strong defense</a></h3>
+                                    <div class="blog-meta">
+                                        <a text=""><i class="far fa-user"></i>By - CBS News</a>
+                                        <a text=""><i class="fal fa-calendar-days"></i>April, 2024</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <div class="blog-style1">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
+                                        <a data-theme-color="#E7473C" href="#" class="category">Fitness</a>
+                                    </div>
+                                    <h3 class="box-title-22"><a class="hover-line" href="https://health.usnews.com/wellness/articles/the-best-supplements-to-build-muscle">The Best Supplements to Build Muscle.</a></h3>
+                                    <div class="blog-meta">
+                                        <a href="author.html"><i class="far fa-user"></i>By - U.S.News</a>
+                                        <a href="#"><i class="fal fa-calendar-days"></i>April 2024</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <div class="blog-style1">
+                                    <div class="blog-img">
+                                        <img src="assets/img/blog/health1.jpg" alt="blog image">
+                                        <a data-theme-color="#FF9500" href="#" class="category">Health</a>
+                                    </div>
+                                    <h3 class="box-title-22"><a class="hover-line" href="https://www.philstar.com/headlines/2024/04/25/2350384/38-areas-under-dangerous-heat-index-classification-pagasa">38 areas under ‘dangerous’ heat index classification — PAGASA</a></h3>
+                                    <div class="blog-meta">
+                                        <a text=""><i class="far fa-user"></i>By - PhilStar Global</a>
+                                        <a text=""><i class="fal fa-calendar-days"></i>April, 2024</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-lg-4 sidebar-wrap">
+                    <aside class="sidebar-area">
+                        <div class="widget widget_search  ">
+                            <form class="search-form">
+                                <input type="text" placeholder="Enter Keyword">
+                                <button type="submit"><i class="far fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="widget widget_categories  ">
+                            <h3 class="widget_title">Categories</h3>
+                            <ul>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Sports</a>
+                                </li>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Business</a>
+                                </li>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Politics</a>
+                                </li>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Health</a>
+                                </li>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Technology</a>
+                                </li>
+                                <li>
+                                    <a data-bg-src="assets/img/bg/category_bg_1_1.jpg" href="#">Entertainment</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget  ">
+                            <h3 class="widget_title">Recent Posts</h3>
+                            <div class="recent-post-wrap">
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://politiko.com.ph/2024/04/25/marcos-asks-govt-agencies-to-help-cos-jo-workers-qualify-for-permanent-posts/daily-feed/">Marcos Asks Gov’t Agencies To Help COS, JO Workers Qualify For Permanent Posts.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>April 2024</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://www.pna.gov.ph/articles/1216834">Palawan ranks 4th among world’s top destinations.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>January 2024</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://www.manilatimes.net/2024/04/13/entertainment-lifestyle/life-times/where-people-come-together-a-tropical-gem-in-mactan-cebu/1941966">Where people come together: A tropical gem in Mactan, Cebu.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>April 2024</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-4.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://www.onesports.ph/pvl/article/20797/pvl-choco-mucho-creamline-petro-gazz-chery-tiggo-complete-final-four-cast">PVL: Chery Tiggo joins Petro Gazz, Creamline, Choco Mucho to complete Final Four cast.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>25 June, 2023</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget  ">
+                            <div class="widget-ads">
+                                <a href="https://themeforest.net/user/themeholy/portfolio">
+                                    <img class="w-100" src="assets/img/ads/siderbar_ads_1.jpg" alt="ads">
+                                </a>
+                            </div>
+                        </div>
+                       
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section><!--==============================
+	Footer Area
+==============================-->
+    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.jpg">
+        <div class="widget-area">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="widget footer-widget">
+                            <div class="th-widget-about">
+                                <div class="about-logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt="Web Update"></a>
+                                </div>
+                                <p class="about-text">Magazines cover a wide subjects, including not limited to fashion, lifestyle, health, politics, business, Entertainment, sports, science,</p>
+                                <div class="th-social style-black">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Recent Posts</h3>
+                            <div class="recent-post-wrap">
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="https://www.spin.ph/volleyball/pvl/pldt-goes-out-in-style-beats-creamline-for-the-first-time-a5172-20240425?ref=feed_1_section"><img src="assets/img/blog/sports4_80x80.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://www.spin.ph/volleyball/pvl/pldt-goes-out-in-style-beats-creamline-for-the-first-time-a5172-20240425?ref=feed_1_section">PLDT goes out in style, beats Creamline for the first time.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>April, 2024</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="media-img">
+                                        <a href="https://www.pinoyfitness.com/2024/04/the-long-road-to-boston-a-story-of-determination-and-triumph/"><img src="assets/img/blog/fitness3_80x80.jpg" alt="Blog Image"></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="post-title"><a class="hover-line" href="https://www.pinoyfitness.com/2024/04/the-long-road-to-boston-a-story-of-determination-and-triumph/">The Long Road To Boston : A Story of Determination and Triumph.</a></h4>
+                                        <div class="recent-post-meta">
+                                            <a href="#"><i class="fal fa-calendar-days"></i>April, 2024</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+                <div class="row jusity-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.html">Web Update</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-auto ms-auto d-none d-lg-block">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">About Us</a></li>
+                                <li><a href="index.html">Faq</a></li>
+                                <li><a href="index.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+
+    <!--==============================
+    All Js File
+============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Range Slider -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- Isotope Filter -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Vimeo Player -->
+    <script src="assets/js/vimeo_player.js"></script>
+
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
